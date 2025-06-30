@@ -5,22 +5,22 @@ const social = [
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/hritik-kumar-7b0a1b1b6/',
-    img: 'https://cdn-icons-png.flaticon.com/512/174/174857.png'
+    img: 'https://img.icons8.com/?size=100&id=MR3dZdlA53te&format=png&color=000000'
   },
   {
     name: 'GitHub',
     url: 'https://github.com/hritik-kumar',
-    img: 'https://cdn-icons-png.flaticon.com/512/25/25231.png'
+    img: 'https://img.icons8.com/?size=100&id=12599&format=png&color=000000'
   },
   {
-    name: 'GitHub',
-    url: 'https://github.com/hritik-kumar',
-    img: 'https://cdn-icons-png.flaticon.com/512/25/25231.png'
+    name: 'Instagram',
+    url: 'https://www.instagram.com/hritik_kumar/',
+    img: 'https://img.icons8.com/?size=100&id=ZRiAFreol5mE&format=png&color=000000'
   },
   {
-    name: 'GitHub',
-    url: 'https://github.com/hritik-kumar',
-    img: 'https://cdn-icons-png.flaticon.com/512/25/25231.png'
+    name: 'Twitter',
+    url: 'https://twitter.com/hritik_kumar',
+    img: 'https://img.icons8.com/?size=100&id=ClbD5JTFM7FA&format=png&color=000000'
   }
 ]
 

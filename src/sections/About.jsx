@@ -11,8 +11,20 @@ const About = () => (
     <p className="text-lg">I'm a passionate web developer with a knack for creating dynamic and responsive web applications.</p>
     <div className="flex gap-4.5  ">
 
-    <button className="mt-4 px-4 py-2 w-3xs bg-blue-600 text-white rounded hover:bg-blue-700 transition">View Projects</button>
-    <button className="mt-4 px-4 py-2 w-3xs bg-blue-600 text-white rounded hover:bg-blue-700 transition">Download Resume</button>
+    <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+            
+            <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-purple-500/25">
+              View Projects
+            </button>
+          </div>
+
+   <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+            
+            <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-purple-500/25">
+              Download Resume
+            </button>
+          </div>
+
     </div>
   <SocialLinks/>
   </div>
