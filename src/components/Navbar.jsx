@@ -5,11 +5,12 @@ import { GrContactInfo } from "react-icons/gr";
 import { LuLayoutGrid } from "react-icons/lu";
 import { TiHomeOutline } from "react-icons/ti";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
+import { GiGears } from "react-icons/gi";
 
 import '../App.css'
 const Navbar = () => {
     return (
-        <nav className="flex items-center justify-between px-6 py-4  text-gray-800 shadow-md  w-screen  top-0 bg-white z-10   ">
+        <nav className="flex items-center justify-between px-6 py-4 sticky text-gray-800 shadow-md  w-screen  top-0 bg-white z-10   ">
 
             <div className="flex items-center">
                 <span className="ml-3 text-xl font-bold">MyWebsite</span>
@@ -20,6 +21,8 @@ const Navbar = () => {
                 <Link to="home" activeClass="active" spy={true} smooth={true} duration={500} className="hover:underline hover:text-[16.3px] cursor-pointer flex items-center gap-1"> {<TiHomeOutline />} Home </Link>
 
                 <Link to="about" activeClass="active" spy={true} smooth={true} duration={900} className="hover:underline hover:text-[16.3px] cursor-pointer flex items-center gap-1">{<GrContactInfo />}About</Link>
+
+                <Link to="Skills" activeClass="active" spy={true} smooth={true} duration={900} className="hover:underline hover:text-[16.3px] cursor-pointer flex items-center gap-1">{<GiGears />}Skills</Link>
 
                 <Link to="projects" activeClass="active" spy={true} smooth={true} duration={500} className="hover:underline hover:text-[16.3px] cursor-pointer flex items-center gap-1">{<LiaProjectDiagramSolid />}Projects</Link>
 

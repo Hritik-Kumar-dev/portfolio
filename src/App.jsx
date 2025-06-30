@@ -6,6 +6,8 @@ import Home from "./sections/Home";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
+import Skills from "./sections/Skills";
+import SkillBubbles from "./sections/SkillBubbles";
 
 function App() {
   
@@ -13,10 +15,12 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Element name="home" style={{ height: '100vh' }}><Home /> </Element>
-      <Element name="about" style={{ height: '100vh' }}><About /> </Element>
-      <Element name="projects" style={{ height: '100vh' }}><Projects /> </Element>
-      <Element name="contact" style={{ height: '100vh' }}><Contact /> </Element>
+      <Element name="home" ><Home /> </Element>
+      <Element name="about"><About /> </Element>
+      {/* <Element name="skills"><Skills/> </Element> */}
+      <Element name="Skills"><SkillBubbles/> </Element>
+      <Element name="projects" ><Projects /> </Element>
+      <Element name="contact" ><Contact /> </Element>
     </>
   );
 }
