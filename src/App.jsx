@@ -8,6 +8,7 @@ import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Skills from "./sections/Skills";
 import SkillBubbles from "./sections/SkillBubbles";
+import Footer from "./components/Footer";
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
       <Element name="Skills"><SkillBubbles/> </Element>
       <Element name="projects" ><Projects /> </Element>
       <Element name="contact" ><Contact /> </Element>
+      <Footer/>
     </>
   );
 }

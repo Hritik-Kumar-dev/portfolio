@@ -369,7 +369,7 @@ const SkillBubbles = () => {
           <div
             key={bubble.id}
             ref={el => bubblesRef.current[index] = el}
-            className="absolute pointer-events-none z-20 will-change-transform"
+            className="absolute pointer-events-none z-200 will-change-transform"
             style={{
               width: `${bubble.size}px`,
               height: `${bubble.size}px`,
