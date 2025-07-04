@@ -1,8 +1,7 @@
 import SocialLinks from "../components/SocialLinks";
 
 const About = () => (
-  <section className="h-screen  w-screen p-4 flex items-center justify-center bg-green-100 font-bold">
-  
+  <section className="h-screen  w-screen p-4 flex items-center justify-center bg-gradient-to-br from-white to-fuchsia-300   font-bold">
 
 
   <div className="Avatar"></div>
@@ -17,7 +16,7 @@ const About = () => (
               View Projects
             </button>
           </div>
-  
+
    <div className="bg-white/10 backdrop-blur-sm rounded-xl p-1.9 border border-white/20">
             
             <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-purple-500/25">

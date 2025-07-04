@@ -1,5 +1,5 @@
 const Home = ({ scrollTo, contactRef }) => (
-  <section className="h-screen  w-screen flex items-center justify-center bg-gray-100 text-4xl font-bold">
+  <section className="h-screen  w-screen flex items-center justify-center bg-gradient-to-tr from-white to-blue-200   text-4xl font-bold">
 
 
     <div className=' w-[100%] h-[100%] p-9  flex flex-col  justify-center'>

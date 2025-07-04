@@ -1,11 +1,5 @@
 import SocialLinks from "../components/SocialLinks";
 import Swal from 'sweetalert2'
-
-
-
-
-
-
 const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -42,10 +36,10 @@ const Contact = () => (
       <p className="">Fill up the form below to send  me a   message </p>
       <form onSubmit={handleSubmit} className="w-full flex flex-col gap-0.2 mt-4">
         <label htmlFor="name">Name:</label>
-        <input className="border border-gray-300 p-2 rounded-md" type="text" id="name" name="name" placeholder="Your Name" />
+        <input required className="border border-gray-300 p-2 rounded-md" type="text" id="name" name="name" placeholder="Your Name" />
 
         <label htmlFor="email">Email:</label>
-        <input className="border border-gray-300 p-2 rounded-md" type="email" id="email" name="email" placeholder="Your Email" />
+        <input required className="border border-gray-300 p-2 rounded-md " type="email" id="email" name="email" placeholder="Your Email" />
 
         <label htmlFor="message">Message:</label>
         <textarea className="border border-gray-300 p-2 rounded-md h-[200px] w-full" id="message" name="message" placeholder="Your Message..."></textarea>
@@ -68,7 +62,7 @@ const Contact = () => (
 
         <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
 
-          <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-purple-500/25">
+          <button className="w-full bg-purple-600 hover:bg-purple-700  text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-purple-500/25">
             Chat with AI
           </button>
         </div>
