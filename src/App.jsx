@@ -11,7 +11,7 @@ import SkillBubbles from "./sections/SkillBubbles";
 import Footer from "./components/Footer";
 
 function App() {
-  
+   
 
   return (
     <>
