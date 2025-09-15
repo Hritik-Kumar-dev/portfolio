@@ -1,9 +1,9 @@
 import SocialLinks from "../components/SocialLinks";
 
 const About = () => (
-  <section className="h-screen  w-screen p-4 flex items-center justify-center bg-gradient-to-br from-white to-fuchsia-300   font-bold">
+  <section className=" Second-Section  h-[160vh]  w-screen p-4 flex items-center justify-center bg-gradient-to-br from-white to-fuchsia-300   font-bold">
 
-
+  
   <div className="Avatar"></div>
   <div className="detail w-[50%] translate-x-[50%] flex flex-col gap-4 align justify-end  p-8">
     <h1 className=" text-4xl" >About Me - Hritik kumar</h1>

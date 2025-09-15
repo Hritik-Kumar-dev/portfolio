@@ -6,10 +6,10 @@ const Home = ({ scrollTo, contactRef }) => (
 
       <h1 className='w-[100%]  text-7xl text-gray-900  poetsen-one-regular'>Hii , <br /> I'm  <span className="bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent">Hritik</span>, <br /><span className="bg-gradient-to-r from-fuchsia-600 to-pink-600 bg-clip-text text-transparent ">Web Developer</span></h1>
       <p className='text-2xl  audiowide-regular '>creative web developer...</p>
+
     </div>
-    
+
 
   </section>
 );
 export default Home;
-  
