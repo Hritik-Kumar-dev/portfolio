@@ -365,6 +365,7 @@ gsap.timeline({
 
   //     })
 
+  
   return (
     <Suspense fallback={null}>
       <group scale={6}>
