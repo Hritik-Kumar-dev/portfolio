@@ -292,6 +292,30 @@ gsap.timeline({
     });
         
 
+    
+gsap.timeline({
+      scrollTrigger: {
+        trigger: ".Fourth-Section",
+      start: "top 81%",
+        end: "top 40%",
+        scrub: true,
+        markers: true,
+      }
+    }).to(scene.position, {
+      // x: 1.0000000000000002,
+      // y: -1.149999999999999,
+      // z: -0.5500000000000119,
+      x: 0,
+      y: -0.5999999999999999,
+      z: 0.6,
+      ease: 'none',
+    });
+
+
+
+
+
+
 }, []);
 
 
