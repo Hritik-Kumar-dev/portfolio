@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poetsen+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Cookie&family=Poetsen+One&display=swap');
 
 .poetsen-one-regular {
   font-family: "Poetsen One", sans-serif;
@@ -11,6 +11,19 @@
   font-family: "Audiowide", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+
+.bitcount-grid-double-dotted {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
 }
 .active {
   font-weight: bold;
