@@ -312,7 +312,17 @@ gsap.timeline({
     });
 
 
-
+ScrollTrigger.create({
+  trigger: ".Fourth-Section",
+  start: "top 1%",
+  end: "top top",
+  onEnter: () => {
+    scene.visible = false; // Show model when entering this range
+  },
+  onLeaveBack: () => {
+    scene.visible = true; // Hide model when scrolling back before this
+  },
+});
 
 
 
