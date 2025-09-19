@@ -29,7 +29,7 @@ function App() {
       <Element name="Skills"><Skills /></Element>
       {/* <Element name="Skills"><SkillBubbles/> </Element> */}
       <Element name="projects" ><Projects /> </Element>
-      <div className="w-[100vw] h-[140vh] bg-amber-500">
+      <div className="w-[100vw] h-[140vh] ">
 
       </div>
       <Element name="contact" ><Contact /> </Element>

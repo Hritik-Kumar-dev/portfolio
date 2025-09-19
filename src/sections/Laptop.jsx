@@ -54,20 +54,21 @@ const TopModel = React.forwardRef((props, ref) => {
 const Laptop = () => {
   const lidGroupRef = useRef();
 
-  useEffect(() => {
-    // Animate the lid opening on load
-    gsap.fromTo(
-      lidGroupRef.current.rotation,
-      { x: Math.PI / 2 }, // closed (flat)
-      {
-        x: 1.39,              // open (upright)
-        // x: 0,              // open (upright)
-        duration: 2,
-        ease: 'power2.out',
-        delay: 0.5,
-      }
-    );
-  }, []);
+  // useEffect(() => {
+  //   // Animate the lid opening on load
+      
+  //   gsap.fromTo(
+  //     lidGroupRef.current.rotation,
+  //     { x: Math.PI / 2 }, // closed (flat)
+  //     {
+  //       x: 1.39,              // open (upright)
+  //       // x: 0,              // open (upright)
+  //       duration: 2,
+  //       ease: 'power2.out',
+  //       delay: 0.5,
+  //     }
+  //   );
+  // }, [lidGroupRef]);
 
 
 
@@ -141,6 +142,7 @@ const Laptop = () => {
   //  }, []);
 
 useLayoutEffect(() => {
+  
    
   gsap.registerPlugin(ScrollTrigger);
 
@@ -358,6 +360,7 @@ ScrollTrigger.create({
 //       z: 3.469446951953614e-18,
 //       ease: 'none',
 //     });
+
         
 
 }, []);
@@ -370,7 +373,7 @@ ScrollTrigger.create({
   const { camera } = useThree();
   const { scene } = useThree();
   // console.log(camera.position, scene.position, scene.rotation);
-  console.log(camera, camera.position, scene.position, scene.rotation);
+  // console.log(camera, camera.position, scene.position, scene.rotation);
 
 
   //  to get the values of camera position and the scene  position we use debug ui from leva 

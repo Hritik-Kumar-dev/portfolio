@@ -1,7 +1,7 @@
 import SocialLinks from "../components/SocialLinks";
 
 const About = () => (
-  <section className=" Second-Section  h-[160vh]  w-screen p-4 flex items-center justify-center bg-gradient-to-br from-white to-fuchsia-300   font-bold">
+  <section className=" Second-Section  h-[160vh]  w-screen p-4 flex items-center justify-center    font-bold">
 
   
   <div className="Avatar"></div>

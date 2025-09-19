@@ -66,7 +66,7 @@ const Projects = () => {
   return (
     <>
       <div className='absolute '>
-        <section className='Fourth-Section w-[100vw] h-[100vh] relative flex items-center justify-center bg-gray-500'>
+        <section className='Fourth-Section w-[100vw] h-[100vh] relative flex items-center justify-center'>
           
           <div className='w-[82%] h-auto flex items-center justify-center relative'>
             {/* Container for both images - they'll move together */}
