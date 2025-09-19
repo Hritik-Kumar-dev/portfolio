@@ -5,9 +5,10 @@ const About = () => (
 
   
   <div className="Avatar"></div>
-  <div className="detail w-[50%] translate-x-[50%] flex flex-col gap-4 align justify-end  p-8">
-    <h1 className=" text-4xl" >About Me - Hritik kumar</h1>
-    <p className="text-lg poetsen-one-regular">I'm a passionate web developer with a knack for creating dynamic and responsive web applications.</p>
+  <div className="detail w-[35%] translate-x-[50%] flex flex-col gap-4 align justify-end  p-8">
+    {/* <h1 className=" text-4xl" >About Me - Hritik kumar</h1> */}
+    <p className="text-lg text-gray-300  poetsen-one-regular">Hi, I’m Hritik Kumar, a B.Tech IT student and passionate web developer. I love creating interactive and user-friendly digital experiences using JavaScript, React, and modern web technologies. Always curious and eager to learn, I enjoy blending creativity with code to bring ideas to life.
+</p>
     <div className="flex gap-4.5  ">
 
     <div className="bg-white/10 backdrop-blur-sm rounded-xl p-1.9 border border-white/20">
