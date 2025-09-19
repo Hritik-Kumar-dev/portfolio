@@ -314,7 +314,7 @@ gsap.timeline({
 
 ScrollTrigger.create({
   trigger: ".Fourth-Section",
-  start: "top 1%",
+  start: "top 7%",
   end: "top top",
   onEnter: () => {
     scene.visible = false; // Show model when entering this range

@@ -34,7 +34,7 @@ function App() {
       <Element name="Skills"><Skills /></Element>
       {/* <Element name="Skills"><SkillBubbles/> </Element> */}
       <Element name="projects" ><Projects /> </Element>
-      <Element name="contact" ><Contact /> </Element>
+      {/* <Element name="contact" ><Contact /> </Element> */}
       <Footer/>
     </>
   );

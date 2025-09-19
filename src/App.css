@@ -17,3 +17,6 @@
   color: red;
   border-bottom: 2px solid red;
 }
+body{
+  overflow-x: hidden;
+}
