@@ -3,7 +3,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-black border-t border-slate-800">
-      <div className="w-full mx-auto px-4 py-6">
+      <div className="w-full mx-auto px-4 py-3">
         <div className="text-center text-slate-400">
           <p className="flex items-center justify-center gap-2 text-sm">
             © {currentYear} • Made with 

@@ -20,21 +20,19 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      
-      
-      <div className="h-screen w-full fixed top-0 z-40"><CanvasContainer /></div>
-     
-     
-
+      <Navbar/> 
       <Element name="home" ><Home /> </Element>
       <Element name="about"><About /> </Element>
-      
-      <div className="h-screen w-full fixed top-0 z-40 " ><CanvasLaptop2 /></div>
+      <div className="h-screen w-full fixed top-0 z-0"><CanvasContainer /></div>
+
+      <div className="h-screen w-full fixed top-0 z-1 " ><CanvasLaptop2 /></div>
       <Element name="Skills"><Skills /></Element>
       {/* <Element name="Skills"><SkillBubbles/> </Element> */}
       <Element name="projects" ><Projects /> </Element>
-      {/* <Element name="contact" ><Contact /> </Element> */}
+      <div className="w-[100vw] h-[140vh] bg-amber-500">
+
+      </div>
+      <Element name="contact" ><Contact /> </Element>
       <Footer/>
     </>
   );

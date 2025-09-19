@@ -22,7 +22,7 @@ const Projects = () => {
       trigger: ".Fourth-Section",
       start: "top 7%",
       end: "top -200%",
-      markers: true,
+      // markers: true,
       toggleActions: "play reverse play reverse",
       onEnter: () => gsap.set("#laptop-container", { display: "block", autoAlpha: 1 }),
       onLeave: () => gsap.set("#laptop-container", { display: "none", autoAlpha: 0 }),
@@ -39,7 +39,7 @@ const Projects = () => {
         start: "top top",
         end: "top -40%",
         scrub: true,
-        markers: true,
+        // markers: true,
         pin: ".Fourth-Section",
       },
     });
@@ -47,9 +47,9 @@ const Projects = () => {
     // Show/hide screen image with delay
     ScrollTrigger.create({
       trigger: ".Fourth-Section",
-      start: "top top",
+      start: "top 3%",
       end: "top -200%",
-      markers: true,
+      // markers: true,
       delay: 1.5,
       toggleActions: "play reverse play reverse",
       onEnter: () => gsap.set("#screen", { display: "block", autoAlpha: 1 }),

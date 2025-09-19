@@ -29,7 +29,7 @@ const handleSubmit = async (event) => {
 
 const Contact = () => (
 
-  <section className="h-screen  w-screen flex items-center justify-center bg-pink-100 gap-10 ">
+  <section className=" relative  z-10 h-screen  w-screen flex items-center justify-center bg-pink-400 gap-10 ">
 
     <div className="form flex flex-col items-center justify-center bg-white p-8 rounded-lg shadow-lg w-100">
       <h2 className="text-2xl font-bold mb-4">Contact Me</h2>

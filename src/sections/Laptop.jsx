@@ -225,7 +225,7 @@ useLayoutEffect(() => {
         start: "top 99%",
         end: "top 60%",
         scrub: true,
-        markers: true,
+        // markers: true,
       }
     }).to(lidGroupRef.current.rotation, {
           x: Math.PI / 2, // open the lid
@@ -239,7 +239,7 @@ gsap.timeline({
         start: "top 99%",
         end: "top 60%",
         scrub: true,
-        markers: true,
+        // markers: true,
       }
     }).to(camera.position, {
       //  x: -0.14999999999999758,
@@ -258,7 +258,7 @@ gsap.timeline({
         start: "top 99%",
         end: "top 60%",
         scrub: true,
-        markers: true,
+        // markers: true,
       }
     }).to(scene.position, {
       // x: -1.3877787807814457e-17,
@@ -273,7 +273,7 @@ gsap.timeline({
         start: "top 99%",
         end: "top 60%",
         scrub: true,
-        markers: true,
+        // markers: true,
       }
     }).to(scene.rotation, {
       // x: -0.060000000000000005,
@@ -289,7 +289,7 @@ ScrollTrigger.create({
   start: "top 60%",   // Match the end of your other triggers
   end: "top 61%",
   scrub: false,       // No animation needed, just toggle
-  markers: true,
+  // markers: true,
   onLeave: () => {
     scene.visible = false; // Hides model when scrolling forward
   },

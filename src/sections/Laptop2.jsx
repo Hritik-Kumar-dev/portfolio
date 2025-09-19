@@ -161,7 +161,7 @@ useLayoutEffect(() => {
         start: "top 99%",
         end: "top 60%",
         scrub: true,
-        markers: true,
+        // markers: true,
       }
     }).to(lidGroupRef.current.rotation, {
           x:Math.PI / 2, // open the lid
@@ -239,7 +239,7 @@ ScrollTrigger.create({
         start: "top 58%",
         end: "top 20%",
         scrub: true,
-        markers: true,
+        // markers: true,
       }
     }).to(lidGroupRef.current.rotation, {
           x: 0, // open the lid
@@ -253,7 +253,7 @@ gsap.timeline({
       start: "top 45%",
         end: "top 1%",
         scrub: true,
-        markers: true,
+        // markers: true,
       }
     }).to(camera.position, {
       x: 0,
@@ -268,7 +268,7 @@ gsap.timeline({
       start: "top 45%",
         end: "top 1%",
         scrub: true,
-        markers: true,
+        // markers: true,
       }
     }).to(scene.position, {
       x: 0,
@@ -282,7 +282,7 @@ gsap.timeline({
       start: "top 45%",
         end: "top 1%",
         scrub: true,
-        markers: true,
+        // markers: true,
       }
     }).to(scene.rotation, {
       x: 0.04,
@@ -299,7 +299,7 @@ gsap.timeline({
       start: "top 81%",
         end: "top 40%",
         scrub: true,
-        markers: true,
+        // markers: true,
       }
     }).to(scene.position, {
       // x: 1.0000000000000002,
