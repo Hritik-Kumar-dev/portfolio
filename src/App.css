@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poetsen+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Cookie&family=Poetsen+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Cookie&family=Poetsen+One&family=WDXL+Lubrifont+JP+N&display=swap');
 .poetsen-one-regular {
   font-family: "Poetsen One", sans-serif;
   font-weight: 400;
@@ -35,4 +35,12 @@ body{
   background : url('D:\hritik PC\react\portfolio-2\src\assets\i m hritik kumar.gif') no-repeat center center fixed;
   /* background-size: cover; */
 
+}
+
+.wdxl-lubrifont-jp-n-regular {
+  font-family: "WDXL Lubrifont JP N", sans-serif;
+  font-weight: 400;
+
+  font-style: normal;
+  line-height: 2;
 }

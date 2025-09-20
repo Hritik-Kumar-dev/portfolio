@@ -29,9 +29,9 @@ const handleSubmit = async (event) => {
 
 const Contact = () => (
 
-  <section className=" relative  z-10 h-screen  w-screen flex items-center justify-center bg-pink-400 gap-10 ">
+  <section className=" relative  z-10 h-screen  w-screen flex items-center justify-center  gap-10 ">
 
-    <div className="form flex flex-col items-center justify-center bg-white p-8 rounded-lg shadow-lg w-100">
+    <div className="form flex flex-col items-center justify-center bg-white  p-8 rounded-lg shadow-lg w-100">
       <h2 className="text-2xl font-bold mb-4">Contact Me</h2>
       <p className="">Fill up the form below to send  me a   message </p>
       <form onSubmit={handleSubmit} className="w-full flex flex-col gap-0.2 mt-4">

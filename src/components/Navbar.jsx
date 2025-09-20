@@ -10,7 +10,7 @@ import { GiGears } from "react-icons/gi";
 import '../App.css'
 const Navbar = () => {
     return (
-        <nav className="flex items-center justify-end px-1 py-2 fixed text-gray-300 shadow-md  w-[100vw]  top-0 backdrop-blur-md bg-white/7  z-10   ">
+        <nav className="flex items-center justify-end px-1 py-2 fixed text-gray-300 shadow-md  w-[100vw]  top-0 backdrop-blur-md bg-white/7  z-30   ">
  
             {/* <div className="flex items-center">
                 <span className="ml-3 text-xl font-bold">MyWebsite</span>

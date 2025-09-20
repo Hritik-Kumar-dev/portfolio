@@ -1,15 +1,18 @@
 const Home = ({ scrollTo, contactRef }) => (
-  <section className="h-screen  w-screen flex  justify-center   text-4xl font-bold">
+  <section className="h-screen mt-20 m-3 w-screen flex    text-4xl font-bold">
 
 
-    <div className=' w-[100%] h-[100%] p-9 relative z-20 flex flex-col  justify-around'>
-      <h1 className="bitcount-grid-double-dotted text-6xl text-gray-300">WELCOME...</h1>
-      <h1 className='w-[70%]  text-5xl text-gray-300  poetsen-one-regular'>Hii , <br /> I'm  <span className="bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent">Hritik</span>, <br /><span className="bg-gradient-to-r from-fuchsia-600 to-pink-600 bg-clip-text text-transparent ">Web Developer</span></h1>
-      <p className='text-2xl  audiowide-regular '>creative web developer...    WELCOME</p>
+      <h1 className="bitcount-grid-double-dotted  mt-10 text-6xl text-gray-300">WELCOME...</h1>
+
+    <div className=' w-[70%] h-[100%] -top-25 -left-20 p-5 relative z-20 flex flex-col items-center justify-center gap-21 '>
+      <h1 className='w-fit h-max -top-3 relative  text-7xl text-gray-300  poetsen-one-regular'>Hii ,  I'm <br />  <span className="audiowide-regular bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-300 bg-clip-text text-transparent drop-shadow-[0_0_8px_rgb(236,72,153)] ">Frontend Developer</span></h1>
+
+      <p className='text-2xl w-[60%] text-gray-700 audiowide-regular '> From concept to code —   <br />
+                            your vision, my creation.</p>
 
     </div>
-
- 
+{/* audiowide-regular */}
+ {/* poetsen-one-regular */}
   </section>
 );
 export default Home;
