@@ -82,7 +82,7 @@ const Projects = () => {
               {/* Project/screen image overlapped on top */}
               <img 
                 id='screen' 
-                className='absolute top-[23%] left-[21%] w-[58%] h-[34%] z-[60] hidden' 
+                className='absolute top-[23%] left-[21%] w-[58%] h-[34%] z-[60] hidden drop-shadow-[0_0_1px_gray]' 
                 src={Magz} 
                 alt="projects" 
               />

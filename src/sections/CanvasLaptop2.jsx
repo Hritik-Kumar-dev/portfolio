@@ -19,7 +19,7 @@ const CanvasLaptop2 = () => {
       <directionalLight position={[-10, -10, -50]} intensity={4} />
 
 
-      <Environment preset="sunset"  environmentIntensity={0.5}/>
+      <Environment preset="sunset"  environmentIntensity={0.9}/>
 {/* <OrbitControls /> */}
       <OrbitControls enableZoom={false} enableRotate={false}  enablePan={false}  />
       <Laptop2 />

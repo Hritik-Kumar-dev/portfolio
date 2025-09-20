@@ -1,5 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 
+import CanvasContainer from "./sections/CanvasContainer";
+import CanvasLaptop2 from "./sections/CanvasLaptop2";
 import { Element } from 'react-scroll';
 import Navbar from "./components/Navbar";
 import Home from "./sections/Home";
@@ -9,8 +11,6 @@ import Contact from "./sections/Contact";
 import Skills from "./sections/Skills";
 // import SkillBubbles from "./sections/SkillBubbles";
 import Footer from "./components/Footer";
-import CanvasContainer from "./sections/CanvasContainer";
-import CanvasLaptop2 from "./sections/CanvasLaptop2";
 
 
 
@@ -18,8 +18,11 @@ import CanvasLaptop2 from "./sections/CanvasLaptop2";
 function App() {
    
 
+
+  
   return (
     <>
+    
       <Navbar/> 
       <Element name="home" ><Home /> </Element>
       <Element name="about"><About /> </Element>

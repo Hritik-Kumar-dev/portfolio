@@ -23,7 +23,7 @@ const CanvasContainer = () => {
       <directionalLight position={[-10, -10, -50]} intensity={4} />
 
 
-      <Environment preset="sunset"  environmentIntensity={0.5}/>
+      <Environment preset="sunset"  environmentIntensity={0.8}/>
 
       <OrbitControls enableZoom={false}  enablePan={false}  />
       <Laptop/>
