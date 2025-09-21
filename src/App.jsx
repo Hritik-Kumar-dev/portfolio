@@ -15,6 +15,7 @@ import Footer from "./components/Footer";
 
 
 
+
 function App() {
    
 
@@ -36,6 +37,7 @@ function App() {
 
       </div> */}
       <Element name="contact" ><Contact /> </Element>
+  
       <Footer/>
     </>
   );

@@ -1,5 +1,7 @@
 import SocialLinks from "../components/SocialLinks";
 import Swal from 'sweetalert2'
+import { TbMail } from "react-icons/tb";
+import Card from "../components/Card";
 const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -29,10 +31,14 @@ const handleSubmit = async (event) => {
 
 const Contact = () => (
 
-  <section className=" relative  z-10 h-screen  w-screen flex items-center justify-center  gap-10 ">
+  <section className=" relative text-white z-10 h-screen  w-screen flex items-center justify-center  gap-5 ">
 
-    <div className="form flex flex-col items-center justify-center bg-white  p-8 rounded-lg shadow-lg w-100">
-      <h2 className="text-2xl font-bold mb-4">Contact Me</h2>
+<div className="flex justify-between items-center mt-12 backdrop-blur-md bg-cyan-200/7  gap-12">
+
+
+
+    <div className="form flex flex-col items-center justify-center  p-8 rounded-lg shadow-lg w-150">
+       <span className='flex items-center justify-center gap-2'> <TbMail  className='text-5xl'/> <h2 className='text-4xl font-bold mb-4'>Get In Touch</h2> </span>
       <p className="">Fill up the form below to send  me a   message </p>
       <form onSubmit={handleSubmit} className="w-full flex flex-col gap-0.2 mt-4">
         <label htmlFor="name">Name:</label>
@@ -44,35 +50,21 @@ const Contact = () => (
         <label htmlFor="message">Message:</label>
         <textarea className="border border-gray-300 p-2 rounded-md h-[200px] w-full" id="message" name="message" placeholder="Your Message..."></textarea>
 
-        <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+       
 
-          <button type="submit"  className="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-purple-500/25">Submit</button>
+          <button type="submit"  className="w-full mt-2 bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-purple-500/25">Submit</button>
 
-        </div>
+       
 
       </form>
     </div>
 
-
-
     <div className="flex flex-col items-center justify-center gap-8 w-96">
-
-      <div className="assistant flex flex-col items-center justify-center bg-white p-8 rounded-lg shadow-lg w-96">
-        <h2>chat with my ai assistant</h2>
-
-        <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-
-          <button className="w-full bg-purple-600 hover:bg-purple-700  text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-purple-500/25">
-            Chat with AI
-          </button>
-        </div>
-
-
-      </div>
+      <Card />
       <SocialLinks />
     </div>
 
-
+</div>
 
   </section>
 );

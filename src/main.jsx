@@ -5,8 +5,7 @@ import App from './App.jsx'
 import LoadingScreen from './LoadingScreen.jsx'
 
 createRoot(document.getElementById('root')).render(
-
-   <LoadingScreen > <App /> </LoadingScreen>
-   
-  ,
+  <StrictMode>
+    <LoadingScreen > <App /> </LoadingScreen>
+  </StrictMode>
 )
