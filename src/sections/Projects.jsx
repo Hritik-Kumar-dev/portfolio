@@ -12,7 +12,7 @@ import lapy from '../assets/lapy.svg'
 import Magz from '../assets/Magz.gif'
 import '../App.css'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import My_pro_list from '../components/My_pro_list';
+import Myprolist from '../components/Myprolist';
 gsap.registerPlugin(ScrollTrigger);
 
 const Projects = () => {
@@ -96,11 +96,11 @@ const Projects = () => {
           <div className="blank w-auto"></div>
 
           <div className="list_container w-[40%] h-[90%]  overflow-y-hidden p-3  mt-2.5 mr-10 justify-center flex  z-70 backdrop-blur-md bg-cyan-200/7 rounded-[28px] shadow-xl items-center flex-col gap-3 poetsen-one-regular text-gray-300 text-lg ">
-            <My_pro_list tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
-            <My_pro_list tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
-            <My_pro_list tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
-            <My_pro_list tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
-            <My_pro_list tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
+            <Myprolist tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
+            <Myprolist tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
+            <Myprolist tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
+            <Myprolist tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
+            <Myprolist tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
 
             
 
