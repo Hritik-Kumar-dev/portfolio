@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-
+import './App.css';
 import CanvasContainer from "./sections/CanvasContainer";
 import CanvasLaptop2 from "./sections/CanvasLaptop2";
 import { Element } from 'react-scroll';

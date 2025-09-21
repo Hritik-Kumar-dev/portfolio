@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Cookie&family=Poetsen+One&family=WDXL+Lubrifont+JP+N&display=swap');
 body{
   overflow-x: hidden;
-  background : url('src/assets/background.gif') no-repeat center center fixed;
+  background : url('/background.gif') no-repeat center center fixed;
   /* background-size: cover; */
 
 }
@@ -32,9 +32,9 @@ body{
     "ELXP" 0;
 }
 .active {
-  font-weight: bold;
-  color: red;
-  border-bottom: 2px solid red;
+  /* font-weight: bold; */
+  color: rgb(253, 50, 50);
+  border-bottom: 1px solid rgb(253, 50, 50);
 }
 
 .wdxl-lubrifont-jp-n-regular {
