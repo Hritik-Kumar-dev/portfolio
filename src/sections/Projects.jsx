@@ -12,7 +12,7 @@ import lapy from '../assets/lapy.svg'
 import Magz from '../assets/Magz.gif'
 import '../App.css'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import My_pro_list from './components/My_pro_list';
 gsap.registerPlugin(ScrollTrigger);
 
 const Projects = () => {
@@ -88,7 +88,21 @@ const Projects = () => {
               />
             </div>
           </div>
-          
+          <div className="list_container w-[30%] h-[100%] relative z-80 bg-amber-400 flex flex-col gap-7.5 poetsen-one-regular text-gray-300 text-lg left-[10%]">
+            <My_pro_list  tittle="Project 1" desc="Description for project 1" stack_array={['React', 'JavaScript', 'CSS']} />
+            <My_pro_list  tittle="Project 2" desc="Description for project 2" stack_array={['React', 'JavaScript', 'CSS']} />
+            <My_pro_list  tittle="Project 3" desc="Description for project 3" stack_array={['React', 'JavaScript', 'CSS']} />
+          </div>
+
+
+
+
+
+
+
+
+
+
         </section>
       </div>
     </>

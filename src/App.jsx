@@ -28,7 +28,7 @@ function App() {
       <Element name="about"><About /> </Element>
       <div className="h-screen w-full fixed top-0 z-0"><CanvasContainer /></div>
 
-      <div className="h-screen w-full fixed top-0 z-1 " ><CanvasLaptop2 /></div>
+      <div className="h-screen w-full fixed top-0 z-0 " ><CanvasLaptop2 /></div>
       <Element name="Skills"><Skills /></Element>
       {/* <Element name="Skills"><SkillBubbles/> </Element> */}
       <Element name="projects" ><Projects /> </Element>
