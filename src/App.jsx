@@ -32,9 +32,9 @@ function App() {
       <Element name="Skills"><Skills /></Element>
       {/* <Element name="Skills"><SkillBubbles/> </Element> */}
       <Element name="projects" ><Projects /> </Element>
-      <div className="w-[100vw] h-[140vh] ">
+      {/* <div className="w-[100vw] h-[140vh] ">
 
-      </div>
+      </div> */}
       <Element name="contact" ><Contact /> </Element>
       <Footer/>
     </>
