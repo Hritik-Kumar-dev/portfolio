@@ -81,7 +81,7 @@ export default function LoadingScreen() {
         <div 
           className="text-white text-lg font-light mt-6 opacity-60 animate-pulse"
           style={{
-            animationDuration: '7s',
+            animationDuration: '9s',
             animationTimingFunction: 'ease-in-out'
           }}
         >

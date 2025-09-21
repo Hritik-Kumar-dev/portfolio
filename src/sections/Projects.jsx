@@ -65,34 +65,50 @@ const Projects = () => {
 
   return (
     <>
-      <div className=' '>
+      <div className=''>
         <section className='Fourth-Section w-[100vw] h-[100vh] relative flex items-center justify-center'>
-          
+
           <div className='w-[82%] h-auto flex items-center justify-center relative'>
             {/* Container for both images - they'll move together */}
             <div id='laptop-container' className='relative w-[55%] h-auto hidden'>
               {/* Laptop image as base */}
-              <img 
-                id='lapy' 
-                className='w-full h-auto relative z-50' 
-                src={lapy} 
-                alt="laptop model" 
+              <img
+                id='lapy'
+                className='w-full h-auto relative z-50'
+                src={lapy}
+                alt="laptop model"
               />
-              
+
               {/* Project/screen image overlapped on top */}
-              <img 
-                id='screen' 
-                className='absolute top-[23%] left-[21%] w-[58%] h-[34%] z-[60] hidden drop-shadow-[0_0_1px_gray]' 
-                src={Magz} 
-                alt="projects" 
+              <img
+                id='screen'
+                className='absolute top-[23%] left-[21%] w-[58%] h-[34%] z-[60] hidden drop-shadow-[0_0_1px_gray]'
+                src={Magz}
+                alt="projects"
               />
             </div>
           </div>
-          <div className="list_container w-[30%] h-[100%] absolute z-70 bg-amber-400 flex flex-col gap-7.5 poetsen-one-regular text-gray-300 text-lg left-[10%]">
-            <My_pro_list  tittle="Project 1" desc="Description for project 1" stack_array={['React', 'JavaScript', 'CSS']} />
-            <My_pro_list  tittle="Project 2" desc="Description for project 2" stack_array={['React', 'JavaScript', 'CSS']} />
-            <My_pro_list  tittle="Project 3" desc="Description for project 3" stack_array={['React', 'JavaScript', 'CSS']} />
+
+
+<div className="master p-5 flex w-[100vw] h-[100vh] absolute justify-end m items-center z-40 ">
+
+
+          <div className="blank w-auto"></div>
+
+          <div className="list_container w-[40%] h-[90%]  overflow-y-hidden p-3  mt-2.5 mr-10 justify-center flex  z-70 backdrop-blur-md bg-cyan-200/7 rounded-[28px] shadow-xl items-center flex-col gap-3 poetsen-one-regular text-gray-300 text-lg ">
+            <My_pro_list tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
+            <My_pro_list tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
+            <My_pro_list tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
+            <My_pro_list tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
+            <My_pro_list tittle="Project 1" desc="Description for project 1 is passed by using react props feature" stack_array={['React', 'JavaScript', 'CSS']} />
+
+            
+
           </div>
+
+
+</div>
+
 
 
 
@@ -109,4 +125,4 @@ const Projects = () => {
   )
 }
 
-  export default Projects;  
+export default Projects;  

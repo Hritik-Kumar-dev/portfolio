@@ -2,14 +2,15 @@ import React from 'react'
 
 const my_pro_list = ({ tittle, desc, stack_array }) => {
     return (
-        <div>
-            <ul className='flex flex-col gap-2.5 text-lg'>
+        <div className='h-[25%] w-full p-2 backdrop-blur-md bg-blue-200/1 hover:bg-blue-200/20 shadow-xl rounded-[20px]
+        '>
+            < ul className='flex flex-col gap-0.5 '>
                 <li className='font-bold text-2xl text-white'>{tittle}</li>
-                <li className='text-gray-200'>{desc}</li>
+                <li className='text-gray-200 font-light '>{desc}</li>
             <li className='text-gray-400'>{stack_array.map((item, index) => (
                     <span key={index}>{item}{index < stack_array.length - 1 && ', '}</span>
                 ))}</li>
-                <li>Project 3</li>
+                
             </ul>
         </div>
     )
