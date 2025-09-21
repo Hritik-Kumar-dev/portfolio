@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poetsen+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Cookie&family=Poetsen+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Cookie&family=Poetsen+One&family=WDXL+Lubrifont+JP+N&display=swap');
+body{
+  overflow-x: hidden;
+  background : url('src/assets/background.gif') no-repeat center center fixed;
+  /* background-size: cover; */
+
+}
 .poetsen-one-regular {
   font-family: "Poetsen One", sans-serif;
   font-weight: 400;
@@ -29,12 +35,6 @@
   font-weight: bold;
   color: red;
   border-bottom: 2px solid red;
-}
-body{
-  overflow-x: hidden;
-  background : url('D:\hritik PC\react\portfolio-2\src\assets\i m hritik kumar.gif') no-repeat center center fixed;
-  /* background-size: cover; */
-
 }
 
 .wdxl-lubrifont-jp-n-regular {
