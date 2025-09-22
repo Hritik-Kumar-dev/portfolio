@@ -1,8 +1,20 @@
 // import Button from "../components/Button";
 import SocialLinks from "../components/SocialLinks";
+import { scroller } from "react-scroll";
+const About = () => {
 
-const About = () => (
-  <section className=" Second-Section  h-[160vh]  w-screen p-4 flex items-center justify-center  relative -top-55 z-10  ">
+
+  
+   const scrollToProjects = () => {
+    scroller.scrollTo("projects", {
+      duration: 4200,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
+
+  return (
+    <section className=" Second-Section  h-[160vh]  w-screen p-4 flex items-center justify-center  relative -top-55 z-10  ">
 
 
 
@@ -17,7 +29,7 @@ const About = () => (
         <Button text="Contact Me" /> */}
         <div className="bg-white/10 backdrop-blur-sm rounded-xl p-1.9 border border-white/20">
 
-          <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-purple-500/25">
+          <button onClick={scrollToProjects}  className="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-purple-500/25">
             View Projects
           </button>
         </div>
@@ -34,5 +46,6 @@ const About = () => (
     </div>
   </section>
 );
+}
 export default About;
 

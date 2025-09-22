@@ -1,7 +1,7 @@
 import SocialLinks from "../components/SocialLinks";
 import Swal from 'sweetalert2'
 import { TbMail } from "react-icons/tb";
-import Card from "../components/Card";
+
 const handleSubmit = async (event) => {
   event.preventDefault();
   const formData = new FormData(event.target);
@@ -33,7 +33,7 @@ const Contact = () => (
 
   <section className=" relative text-white z-10 h-screen  w-screen flex items-center justify-center  gap-5 ">
 
-    <div className="flex justify-between items-center mt-12 backdrop-blur-md bg-cyan-200/7  gap-12">
+    <div className="flex justify-between items-center mt-12 backdrop-blur-md bg-cyan-200/20 rounded-4xl gap-12">
 
 
 
@@ -60,7 +60,7 @@ const Contact = () => (
       </div>
 
       <div className="flex flex-col items-center justify-center gap-8 w-96">
-        <Card />
+        <h2 className="text-3xl font-bold">or</h2>
         <SocialLinks />
       </div>
 
