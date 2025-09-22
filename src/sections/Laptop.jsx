@@ -1,11 +1,11 @@
 // src/Components/Laptop.jsx
-import React, { useEffect, useRef, Suspense,useLayoutEffect } from 'react';
+import React, { useEffect, useRef, Suspense,useLayoutEffect ,useContext} from 'react';
 import * as THREE from 'three';
 import { useGLTF,OrbitControls } from '@react-three/drei';
 import { useThree ,useFrame} from '@react-three/fiber';
 import gsap from 'gsap';
 
-import { useControls } from 'leva';
+// import { useControls } from 'leva';
 
 
 import { ScrollTrigger } from 'gsap/ScrollTrigger';

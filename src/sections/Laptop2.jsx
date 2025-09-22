@@ -1,12 +1,12 @@
 // src/Components/Laptop.jsx
-import React, { useEffect, useRef, Suspense,  useLayoutEffect} from 'react';
+import React, { useEffect, useRef, Suspense,  useLayoutEffect,useContext} from 'react';
 import * as THREE from 'three';
 import { useGLTF,OrbitControls } from '@react-three/drei';
 import { useThree } from '@react-three/fiber';
 import gsap from 'gsap';
 
-import { useControls } from 'leva';
-import { useFrame } from '@react-three/fiber';
+// import { useControls } from 'leva';
+// import { useFrame } from '@react-three/fiber';
 
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -55,7 +55,7 @@ const TopModel = React.forwardRef((props, ref) => {
 
 
 const Laptop2 = () => {
-  const lidGroupRef = useRef();
+  const lidGroupRef2 = useRef();
   useEffect(() => {
     //   gsap.fromTo(
     //         lidGroupRef.current.rotation,
@@ -92,7 +92,7 @@ useLayoutEffect(() => {
         scrub: true,
         // markers: true,
       }
-    }).to(lidGroupRef.current.rotation, {
+    }).to(lidGroupRef2.current.rotation, {
           x:Math.PI / 2, // open the lid
           duration: 3,
           ease: 'power2.out',
@@ -126,7 +126,7 @@ ScrollTrigger.create({
         scrub: true,
         // markers: true,
       }
-    }).to(lidGroupRef.current.rotation, {
+    }).to(lidGroupRef2.current.rotation, {
           x: 0, // open the lid
           duration: 2,
           ease: 'power2.out',
@@ -263,7 +263,7 @@ ScrollTrigger.create({
     <Suspense fallback={null}>
       <group scale={6}>
         <BaseModel />
-        <group ref={lidGroupRef} position={[0, 0.00359, -0.00259]}> {/* adjust pivot if needed */}
+        <group ref={lidGroupRef2} position={[0, 0.00359, -0.00259]}> {/* adjust pivot if needed */}
           <TopModel />
         </group>
       </group>

@@ -150,28 +150,13 @@ const Projects = () => {
                   </ul> 
                 </div>
 
-
-
-
-
-
-
-
-
-
               ))}
-
 
 
             </div>
 
 
           </div>
-
-
-
-
-
 
         </section>
       </div>
