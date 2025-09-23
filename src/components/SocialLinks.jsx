@@ -1,39 +1,31 @@
 import React from 'react'
-
-
-const social = [
-  {
-    name: 'LinkedIn',
-    url: 'www.linkedin.com/in/hritik-kumar-a05b572a9',
-    img: 'https://img.icons8.com/?size=100&id=MR3dZdlA53te&format=png&color=000000'
-  },
-  {
-    name: 'GitHub',
-    url: 'https://github.com/Hritik-Kumar-dev',
-    img: 'https://img.icons8.com/?size=100&id=12599&format=png&color=000000'
-  },
-  {
-    name: 'Instagram',
-    url: 'https://www.instagram.com/hritikkumar3972/?next=%2F',
-    img: 'https://img.icons8.com/?size=100&id=ZRiAFreol5mE&format=png&color=000000'
-  },
-  {
-    name: 'Twitter',
-    url: 'https://x.com/HritikKuma22829',
-    img: 'https://img.icons8.com/?size=100&id=ClbD5JTFM7FA&format=png&color=000000'
-  }
-]
-
+import { IoLogoLinkedin } from "react-icons/io5";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 const SocialLinks = () => {
   return (
 
-    <div className="flex gap-1.5  " >
+    <div className="flex gap-1.5  text-white text-5xl " >
 
-      {social.map(MySocial => (
-        <div className="flex items-center mx-2  gap-1.5" key={MySocial.name}>
-          <a href={MySocial.url}><img className='w-13 h-13 ' src={MySocial.img} alt={MySocial.name} /></a>
+    
+        <div className="flex items-center mx-2  gap-1.5" >
+          <a href= 'www.linkedin.com/in/hritik-kumar-a05b572a9'><IoLogoLinkedin /></a>
         </div>
-      ))}
+
+        <div className="flex items-center mx-2  gap-1.5" >
+          <a href= 'https://github.com/Hritik-Kumar-dev'><FaGithubSquare /></a>
+        </div>
+        
+        <div className="flex items-center mx-2  gap-1.5" >
+          <a href= 'https://www.instagram.com/hritikkumar3972/?next=%2F'><FaInstagramSquare /></a>
+        </div>
+     
+        
+        <div className="flex items-center mx-2  gap-1.5" >
+          <a href= 'https://x.com/HritikKuma22829'><FaSquareXTwitter /></a>
+        </div>
+     
 
     </div>
   )

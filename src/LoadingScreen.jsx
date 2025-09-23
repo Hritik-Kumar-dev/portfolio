@@ -8,7 +8,7 @@ export default function LoadingScreen() {
   const animationRef = useRef(null);
 
   useEffect(() => {
-    const duration = 3000; // 3 seconds
+    const duration = 6000; // 6 seconds
     const increment = 100 / (duration / 16); // 60fps smooth animation
     const startTime = Date.now();
 
@@ -81,7 +81,7 @@ export default function LoadingScreen() {
         <div 
           className="text-white text-lg font-light mt-6 opacity-60 animate-pulse"
           style={{
-            animationDuration: '9s',
+            animationDuration: '4s',
             animationTimingFunction: 'ease-in-out'
           }}
         >
