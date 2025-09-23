@@ -137,9 +137,9 @@ const Projects = () => {
 
             <div className="list_container w-[40%] h-[90%]  overflow-y-hidden p-3  mt-2.5 mr-10 justify-center flex  z-80 backdrop-blur-md bg-cyan-200/10 rounded-[28px] shadow-xl items-center flex-col gap-3 poetsen-one-regular text-gray-300 text-lg ">
               {DataArray.map((item) => (
-                <div className='h-[25%] w-full p-2 backdrop-blur-md bg-blue-200/1 hover:bg-blue-200/20 hover:cursor-pointer shadow-xl rounded-[20px]
+                <div key={item.id}  className='h-[25%] w-full p-2 backdrop-blur-md bg-blue-200/1 hover:bg-blue-200/20 hover:cursor-pointer shadow-xl rounded-[20px]
         '>
-                  <ul key={item.id} onClick={() => handleClick(item.videosrc)} className='flex flex-col gap-0.5 '>
+                  <ul  onClick={() => handleClick(item.videosrc)} className='flex flex-col gap-0.5 '>
                     <li className='font-bold text-2xl text-white'>{item.title}</li>
                     <li className='text-gray-200 font-light '>{item.desc}</li>
                     {/* <li className='text-gray-400'>{stack_array.map((item, index) => (
