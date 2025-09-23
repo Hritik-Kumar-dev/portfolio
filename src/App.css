@@ -4,7 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Cookie&family=Poetsen+One&family=WDXL+Lubrifont+JP+N&display=swap');
 body{
   overflow-x: hidden;
-  background : url('/background.gif') no-repeat center center fixed;
+  
+  background: linear-gradient(to right, #040020, #05102c, #161b59);
+  /* background : url('/background.gif') no-repeat center center fixed; */
   /* background-size: cover; */
 
 }
