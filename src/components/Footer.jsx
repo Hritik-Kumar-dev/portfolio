@@ -1,3 +1,4 @@
+import { BsFillBalloonHeartFill } from "react-icons/bs";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -6,8 +7,8 @@ const Footer = () => {
       <div className="w-full mx-auto px-4 py-3">
         <div className="text-center text-slate-400">
           <p className="flex items-center justify-center gap-2 text-sm">
-            © {currentYear} • Made with 
-          <img className='w-5 h-5' src="https://img.icons8.com/?size=100&id=4T5VAk5CB92r&format=png&color=000000" alt="heart" />
+            © {currentYear} • Made with
+            <BsFillBalloonHeartFill className="w-5 h-5 text-red-500" />
             by Hritik Kumar
           </p>
         </div>
