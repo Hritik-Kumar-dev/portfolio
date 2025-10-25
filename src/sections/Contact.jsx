@@ -33,7 +33,7 @@ const Contact = () => (
 
   <section className=" relative text-white z-10 h-screen  w-screen flex items-center justify-center  gap-5 ">
 
-    <div className="flex justify-between items-center mt-12 backdrop-blur-md bg-cyan-200/20 rounded-4xl gap-12">
+    <div className=" border-1 flex justify-between items-center mt-12 backdrop-blur-md bg-cyan-200/2 rounded-4xl gap-12">
 
 
 

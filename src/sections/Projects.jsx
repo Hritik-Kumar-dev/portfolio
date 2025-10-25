@@ -135,7 +135,7 @@ const Projects = () => {
 
             <div className="blank w-auto"></div>
 
-            <div className="list_container w-[40%] h-[90%]  overflow-y-hidden p-3  mt-2.5 mr-10 justify-center flex  z-80 backdrop-blur-md bg-cyan-200/10 rounded-[28px] shadow-xl items-center flex-col gap-3 poetsen-one-regular text-gray-300 text-lg ">
+            <div className="list_container w-[40%] h-[90%]  overflow-y-hidden p-3  mt-2.5 mr-10 justify-center flex  z-80 backdrop-blur-md bg-gray-200/5 rounded-[28px] shadow-xl items-center flex-col gap-3 poetsen-one-regular text-gray-300 text-lg ">
               {DataArray.map((item) => (
                 <div key={item.id}  className='h-[25%] w-full p-2 backdrop-blur-md bg-blue-200/1 hover:bg-blue-200/20 hover:cursor-pointer shadow-xl rounded-[20px]
         '>

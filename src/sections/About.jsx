@@ -20,7 +20,7 @@ const About = () => {
 
     <div className="detail w-[45%] translate-x-[50%] flex flex-col gap-4 align justify-end  p-8">
       {/* <h1 className=" text-4xl" >About Me - Hritik kumar</h1> */}
-      <p className="text-2xl text-gray-300 wdxl-lubrifont-jp-n-regular">Hi, I’m <span className="strong text-5xl bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-300 bg-clip-text text-transparent">Hritik Kumar</span>,<br /> a web developer and B.Tech IT student passionate about building clean, modern, and user-friendly digital experiences. I enjoy solving problems with code and turning ideas into reality.  <br />I also enjoy building 3D web experiences that bring ideas to life in a unique way.
+      <p className="text-2xl text-gray-300 wdxl-lubrifont-jp-n-regular">Hi, I’m <span className="strong text-5xl ">Hritik Kumar</span>,<br /> a web developer and B.Tech IT student passionate about building clean, modern, and user-friendly digital experiences. I enjoy solving problems with code and turning ideas into reality.  <br />I also enjoy building 3D web experiences that bring ideas to life in a unique way.
 
       </p>
       <div className="flex gap-8.5 ">
